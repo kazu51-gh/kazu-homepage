@@ -16,3 +16,7 @@
   text-align: left;
   padding: 0 1rem 0 0;
 }
+
+.keepBreak {
+  word-break: keep-all;
+}

@@ -22,3 +22,16 @@
   color: #000000;
   text-decoration: none;
 }
+
+@media screen and (max-width: 400px) {
+  .headers {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+  }
+
+  .menuContainer {
+    padding: 0;
+  }
+}

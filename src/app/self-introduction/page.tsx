@@ -20,7 +20,7 @@ const SelfIntroduction = () => {
                 <td>kazu</td>
               </tr>
               <tr>
-                <td className={styles.tableTextCenter}>生年月日</td>
+                <td className={`${styles.tableTextCenter} ${styles.keepBreak}`}>生年<wbr />月日</td>
                 <td>2001/06/17</td>
               </tr>
               <tr>
@@ -33,7 +33,7 @@ const SelfIntroduction = () => {
               </tr>
               <tr>
                 <td className={styles.tableTextCenter}>趣味</td>
-                <td>動画鑑賞・小規模アプリケーション開発</td>
+                <td className={styles.keepBreak}>動画鑑賞・<wbr />小規模アプリケーション開発</td>
               </tr>
             </tbody>
           </table>
@@ -48,15 +48,15 @@ const SelfIntroduction = () => {
               </tr>
               <tr>
                 <td className={styles.tableTextLeft}>2014/04/01 - 2017/03/31</td>
-                <td>私立 清教学園中学校</td>
+                <td className={styles.keepBreak}>私立 清教学園<wbr />中学校</td>
               </tr>
               <tr>
                 <td className={styles.tableTextLeft}>2017/04/01 - 2020/03/31</td>
-                <td>私立 清教学園高等学校</td>
+                <td className={styles.keepBreak}>私立 清教学園<wbr />高等学校</td>
               </tr>
               <tr>
                 <td className={styles.tableTextLeft}>2020/04/01 - 2024/03/31</td>
-                <td>私立 京都産業大学</td>
+                <td className={styles.keepBreak}>私立 京都産業大学 <wbr />情報理工学部</td>
               </tr>
               <tr>
                 <td className={styles.tableTextLeft}>2024/04/01 -</td>
