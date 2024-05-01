@@ -1,0 +1,24 @@
+.headers {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.menuContainer {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2rem;
+}
+
+.titleLink {
+  color: #000000;
+  text-decoration: none;
+}

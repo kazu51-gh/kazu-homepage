@@ -1,0 +1,12 @@
+.menu {
+  cursor: pointer;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 2rem;
+  margin: 0 1.25rem;
+}
+
+.menuLink {
+  color: #000000;
+  text-decoration: none;
+}

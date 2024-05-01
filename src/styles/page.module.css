@@ -1,0 +1,18 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  margin: 1rem;
+}
+
+.tableTextCenter {
+  text-align: center;
+  padding: 0 1rem 0 0;
+}
+
+.tableTextLeft {
+  text-align: left;
+  padding: 0 1rem 0 0;
+}
