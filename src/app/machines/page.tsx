@@ -44,7 +44,7 @@ const Machines = () => {
             <tbody>
               <tr>
                 <td className={styles.tableTextCenter}>OS</td>
-                <td>macOS Sonoma 14.4.1</td>
+                <td>macOS Sequoia 15.3.1</td>
               </tr>
               <tr>
                 <td className={styles.tableTextCenter}>Processor</td>
@@ -71,7 +71,7 @@ const Machines = () => {
             <tbody>
               <tr>
                 <td className={styles.tableTextCenter}>OS</td>
-                <td>iPadOS 17.4.1</td>
+                <td>iPadOS 18.3.1</td>
               </tr>
               <tr>
                 <td className={styles.tableTextCenter}>Processor</td>
@@ -98,7 +98,7 @@ const Machines = () => {
             <tbody>
               <tr>
                 <td className={styles.tableTextCenter}>OS</td>
-                <td>iOS 17.4.1</td>
+                <td>iOS 18.3.1</td>
               </tr>
               <tr>
                 <td className={styles.tableTextCenter}>Processor</td>
@@ -115,6 +115,33 @@ const Machines = () => {
               <tr>
                 <td className={styles.tableTextCenter}>Storage</td>
                 <td>128GB</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <h3>Apple Watch Series 10 (GPS)</h3>
+          <table>
+            <tbody>
+              <tr>
+                <td className={styles.tableTextCenter}>OS</td>
+                <td>watchOS 11.3.1</td>
+              </tr>
+              <tr>
+                <td className={styles.tableTextCenter}>Processor</td>
+                <td>S10 SiP(64-bit dual core processor, 4-core Neural Engine)</td>
+              </tr>
+              <tr>
+                <td className={styles.tableTextCenter}>Display</td>
+                <td>LTPO3 OLED Always-On Retina display</td>
+              </tr>
+              <tr>
+                <td className={styles.tableTextCenter}>Material</td>
+                <td>Aluminum case(42mm)</td>
+              </tr>
+              <tr>
+                <td className={styles.tableTextCenter}>Storage</td>
+                <td>64GB</td>
               </tr>
             </tbody>
           </table>

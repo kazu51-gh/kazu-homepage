@@ -19,6 +19,10 @@ export default function Home() {
                 <td className={styles.tableTextCenter}>2024/05/01</td>
                 <td>ホームページ開設</td>
               </tr>
+              <tr>
+                <td className={styles.tableTextCenter}>2025/03/23</td>
+                <td>マシン環境 - OS情報の更新、Apple Watch Series 10 (GPS)の追加</td>
+              </tr>
             </tbody>
           </table>
         </div>
